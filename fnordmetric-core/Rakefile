@@ -4,3 +4,6 @@ desc "Run all examples"
 task RSpec::Core::RakeTask.new('fnordmetric-core/spec')
 
 task :default => "spec"
+
+require "bundler/gem_tasks"
+

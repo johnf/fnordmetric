@@ -4,7 +4,7 @@ require "date"
 require "fnordmetric/version"
 
 Gem::Specification.new do |s|
-  s.name        = "fnordmetric"
+  s.name        = "johnf-fnordmetric"
   s.version     = FnordMetric::VERSION
   s.date        = Date.today.to_s
   s.platform    = Gem::Platform::RUBY
